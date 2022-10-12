@@ -3,6 +3,7 @@
 
 contract MoodDiary{
     string mood;
+    uint num;
 
      //create a function that writes a mood to the smart contract
     function setMood(string memory _mood) public{
